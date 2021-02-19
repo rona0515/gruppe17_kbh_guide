@@ -1,0 +1,44 @@
+ * {
+            margin: 0;
+        }
+
+        .container {
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 100px 1fr 70px;
+        }
+
+        .item {
+            border: 1px solid #000000;
+        }
+
+        .item-a {
+            background-color: #182fad;
+        }
+
+        .item-b {
+            background-color: darkseagreen;
+            padding: 10px;
+            display: grid;
+            grid-gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .item-b {
+            grid-auto-rows: 1fr;
+        }
+
+        .item-d {
+            background-color: #182fad;
+
+        }
+
+
+
+        article {
+            border: 1px solid #333;
+            background-color: #ffcced;
+
+        }
+
+        @media screen and (min-width:768px) {}
