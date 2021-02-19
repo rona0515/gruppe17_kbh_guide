@@ -44,16 +44,9 @@
      padding: 10px;
  }
 
- @font-face {
-     font-family: 'kremlinregular';
-     src: url('fonts/kremlin-webfont.woff2') format('woff2'),
-         url('fonts/kremlin-webfont.woff') format('woff');
-     font-weight: normal;
-     font-style: normal;
- }
 
  button {
-     font-family: 'kremlinregular';
+
      background-color: #CBA9BE;
      font-size: 0.8rem;
      border: none;
@@ -62,7 +55,7 @@
  }
 
  h1 {
-     font-family: 'kremlinregular';
+
      color: black;
      font-size: 1.7rem;
      text-transform: uppercase;
@@ -70,14 +63,14 @@
  }
 
  h2 {
-     font-family: 'Poppins', sans-serif;
+
      font-size: 1.5rem;
      text-transform: uppercase;
      color: black;
  }
 
  p {
-     font-family: 'Poppins', sans-serif;
+
      font-size: 1rem;
      color: black;
      line-height: 1.4;
@@ -101,7 +94,7 @@
      margin-left: auto;
      margin-right: auto;
      text-align: center;
-     font-family: 'kremlinregular';
+
      border: none;
      padding: 10px;
      width: 80px;
@@ -115,5 +108,3 @@
      text-decoration: none;
      font-size: 0.8rem;
  }
-
- </style >
