@@ -36,7 +36,71 @@
     </template>
 
 
-    <script></script>
+    <script>
+        const header = document.querySelector("header h1");
+        const medieurl = "https://babushka-dd8a.restdb.io/media/";
+        const myHeaders = {
+            "x-apikey": "600ec2fb1346a1524ff12de4"
+        }
+
+        document.addEventListener("DOMContentLoaded", start)
+        let retter;
+        let filter = "alle";
+
+        //første funktion der kaldes efter Dom er loaded
+
+        function start() {
+            const filterKnapper = document.querySelectorAll("nav button");
+            filterKnapper.forEach(knap => knap.addEventListener("click", filtrerRetter));
+            loadJSON();
+        }
+
+        function filtrerRetter() {
+            filter = this.dataset.kategori;
+            document.querySelector(".valgt").classList.remove("valgt");
+            this.classList.add("valgt")
+            visRetter();
+            header.textContent = this.textContent;
+        }
+
+
+        async function loadJSON() {
+            const JSONData = await fetch("https://babushka-dd8a.restdb.io/rest/menu", {
+                headers: myHeaders
+            });
+            retter = await JSONData.json();
+            console.log("Retter", retter);
+            visRetter();
+        }
+
+        function visRetter() {
+            //            console.log("vis");
+            //            console.log(json);
+
+            const dest = document.querySelector("#liste");
+            const skabelon = document.querySelector("template").content;
+            dest.textContent = "";
+            retter.forEach(ret => {
+                if (filter == ret.kategori || filter == "alle") {
+                    const klon = skabelon.cloneNode(true);
+                    klon.querySelector(".billede").src = medieurl + ret.billede[0];
+                    klon.querySelector(".navn").textContent = ret.navn;
+                    klon.querySelector(".kortbeskrivelse").textContent = ret.kortbeskrivelse;
+                    klon.querySelector(".pris").textContent = `${"Pris: "}` + ret.pris + `${",-"}`;
+
+                    klon.querySelector(".ret").addEventListener("click", () => visDetaljer(ret));
+
+                    dest.appendChild(klon);
+                }
+            })
+        }
+
+        function visDetaljer(hvad) {
+            location.href = `detailView.html?id=${hvad._id}`;
+
+        }
+
+    </script>
 
     <footer id="footer">
         <a href="#my_header">Til toppen</a>
