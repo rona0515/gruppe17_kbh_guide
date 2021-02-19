@@ -50,8 +50,8 @@
              klon.querySelector(".billede").src = medieurl + sted.billede[0];
              klon.querySelector(".navn").textContent = sted.navn;
              //                    klon.querySelector(".kortbeskrivelse").textContent = sted.kortbeskrivelse;
-             klon.querySelector(".adresse").textContent = `${"adresse: "}` + sted.adresse;
-             klon.querySelector(".kategori").textContent = `${"kategori: "}` + sted.kategori;
+             klon.querySelector(".adresse").textContent = `${"Adresse: "}` + sted.adresse;
+             klon.querySelector(".kategori").textContent = `${"Kategori: "}` + sted.kategori;
 
              klon.querySelector(".steder").addEventListener("click", () => visDetaljer(sted));
 
