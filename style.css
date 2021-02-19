@@ -1,44 +1,110 @@
- * {
-            margin: 0;
-        }
+ img {
+     max-width: 100%;
+ }
 
-        .container {
-            height: 100vh;
-            display: grid;
-            grid-template-rows: 100px 1fr 70px;
-        }
+ section {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     grid-gap: 1rem;
+ }
 
-        .item {
-            border: 1px solid #000000;
-        }
+ article {
+     /*    border: 1px solid #974478;*/
+     padding: 1rem;
+     border-radius: 3px;
+     background-color: #CBA9BE;
+ }
 
-        .item-a {
-            background-color: #182fad;
-        }
+ body {
+     background-color: #DBD4C4;
+ }
 
-        .item-b {
-            background-color: darkseagreen;
-            padding: 10px;
-            display: grid;
-            grid-gap: 15px;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        }
+ .valgt {
+     cursor: pointer;
+     background-color: #974478;
+ }
 
-        .item-b {
-            grid-auto-rows: 1fr;
-        }
+ nav {
+     display: flex;
+     justify-content: center;
+     /*        align-items: center;*/
+     margin: 1rem;
+ }
 
-        .item-d {
-            background-color: #182fad;
+ /*
+    section {
+        background-color: #974478;
+    }
+*/
+ section,
+ h1 {
+     max-width: 1200px;
+     height: auto;
+     margin: 0 auto;
+     padding: 10px;
+ }
 
-        }
+
+ button {
+
+     background-color: #CBA9BE;
+     font-size: 0.8rem;
+     border: none;
+     padding: 10px;
+
+ }
+
+ h1 {
+
+     color: black;
+     font-size: 1.7rem;
+     text-transform: uppercase;
+     padding: 25px;
+ }
+
+ h2 {
+
+     font-size: 1.5rem;
+     text-transform: uppercase;
+     color: black;
+ }
+
+ p {
+
+     font-size: 1rem;
+     color: black;
+     line-height: 1.4;
+ }
 
 
+ .splash {
+     /*        background-image: url(splash.jpg);*/
+     background-size: cover;
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     max-width: none;
+     margin-top: 0;
+     margin-left: auto;
+     margin-right: auto;
+ }
 
-        article {
-            border: 1px solid #333;
-            background-color: #ffcced;
+ footer {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
 
-        }
+     border: none;
+     padding: 10px;
+     width: 80px;
+     border-radius: 3px;
+     background-color: #974478;
 
-        @media screen and (min-width:768px) {}
+ }
+
+ footer a {
+     color: black;
+     text-decoration: none;
+     font-size: 0.8rem;
+ }

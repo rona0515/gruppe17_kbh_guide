@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dit KBH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="my_header">
+        <nav>
+            <button data-kategori="alle" class="valgt">Alle steder</button>
+            <button data-kategori="Vesterbro">Vesterbro</button>
+            <button data-kategori="Østerbro">Østerbro</button>
+            <button data-kategori="Nørrebro">Nørrebro</button>
+            <button data-kategori="Amager">Amager</button>
+            <button data-kategori="Indre By">Indre By</button>
+        </nav>
+        <h1>Alle steder</h1>
+    </header>
+
+    <section id="liste">
+    </section>
+
+    <article class="steder">
+        <img src="" alt="" class="billede">
+        <h2 class="navn"></h2>
+        <p class="kortbeskrivelse"></p>
+        <p class="kategori"></p>
+        <p class="adresse"></p>
+    </article>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get("id");
+
+        const medieurl = "https://kbhsteder-1f70.restdb.io/media/";
+        let sted;
+        const myHeaders = {
+            "x-apikey": "602f89cb5ad3610fb5bb63c7"
+        }
+
+        console.log("ID", id);
+        document.addEventListener("DOMContentLoaded", loadJSON)
+
+        async function loadJSON() {
+            const JSONData = await fetch(`https://kbhsteder-1f70.restdb.io/rest/steder/${id}`, {
+                headers: myHeaders
+            });
+            sted = await JSONData.json();
+
+            console.log("steder", sted);
+            visSted(sted);
+        }
+
+        function visSted() {
+            document.querySelector(".billede").src = medieurl + sted.billede;
+            document.querySelector(".navn").textContent = sted.navn;
+            //            document.querySelector(".langbeskrivelse").textContent = sted.langbeskrivelse;
+            document.querySelector(".kategori").textContent = `${"Kategori: "}` + sted.kategori;
+            document.querySelector(".adresse").textContent = `${"Adresse: "}` + sted.adresse;
+            document.querySelector("button").addEventListener("click", tilbageTilSted);
+        }
+
+        function tilbageTilSted() {
+            history.back();
+        }
+
+    </script>
+</body>
+
+</html>
