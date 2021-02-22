@@ -12,13 +12,19 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
+
 }
 
 article {
     /*    border: 1px solid #974478;*/
     padding: 1rem;
     border-radius: 3px;
+    max-width: 600px;
+    box-shadow: -6px 3px 7px -2px rgba(51, 72, 155, 0.74);
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 body {}
 
@@ -31,6 +37,11 @@ h1 {
     padding: 10px;
 }
 
+article button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 button {
     font-family: 'Poppins', sans-serif;
@@ -56,12 +67,14 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color: #33489B;
+    text-align: center;
 }
 
 h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     color: #FABEC6;
+    text-align: center;
 }
 
 p {
