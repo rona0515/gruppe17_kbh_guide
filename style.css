@@ -30,13 +30,18 @@
 
  #liste {
      padding: 2rem;
-
  }
 
  article {
      /*    border: 1px solid #974478;*/
      padding: 1rem;
      box-shadow: -6px 3px 7px -2px rgba(0, 0, 0, 0.65);
+ }
+
+ article button {
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
  }
 
  body {}
@@ -73,7 +78,7 @@
      background-color: #FABEC6;
      color: #33489B;
      font-weight: 600;
-     font-size: 0.8rem;
+     font-size: 0.9rem;
      border: none;
      padding: 10px;
  }
@@ -139,6 +144,6 @@
  footer a {
      color: #FABEC6;
      text-decoration: none;
-     font-size: 0.8rem;
+     font-size: 0.9rem;
      font-weight: 600;
  }
