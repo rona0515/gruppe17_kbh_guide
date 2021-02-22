@@ -80,13 +80,14 @@
 
  button {
      font-family: 'Poppins', sans-serif;
-     background-color: #FABEC6;
-     color: #33489B;
+     background-color: #33489B;
+     color: #FABEC6;
      font-weight: 600;
      font-size: 0.9rem;
      border: none;
      padding: 10px;
  }
+
 
 
  #alle_steder {
@@ -189,11 +190,11 @@
      padding: 10px;
      width: 80px;
      border-radius: 3px;
-     background-color: #33489B;
+     background-color: #FABEC6;
  }
 
  footer a {
-     color: #FABEC6;
+     color: #33489B;
      text-decoration: none;
      font-size: 0.9rem;
      font-weight: 600;
