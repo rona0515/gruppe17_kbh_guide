@@ -68,7 +68,6 @@
      font-size: 0.8rem;
      border: none;
      padding: 10px;
-
  }
 
  h1 {
@@ -96,6 +95,7 @@
      font-size: 1rem;
      color: black;
      line-height: 1.4;
+     color: #33489B;
  }
 
  .splash {
