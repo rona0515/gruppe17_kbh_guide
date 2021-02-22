@@ -43,7 +43,7 @@
 
  .valgt {
      cursor: pointer;
-     background-color: #974478;
+     background-color: ghostwhite;
  }
 
  nav {
@@ -70,7 +70,9 @@
 
  button {
      font-family: 'Poppins', sans-serif;
-     background-color: #CBA9BE;
+     background-color: #FABEC6;
+     color: #33489B;
+     font-weight: 600;
      font-size: 0.8rem;
      border: none;
      padding: 10px;
