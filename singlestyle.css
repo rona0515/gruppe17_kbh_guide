@@ -51,7 +51,7 @@ button {
     font-size: 0.8rem;
     border: none;
     padding: 10px;
-
+    cursor: pointer;
 }
 
 h1 {
