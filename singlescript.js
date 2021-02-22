@@ -23,8 +23,8 @@
        function visSted() {
            document.querySelector(".billede").src = medieurl + sted.billede;
            document.querySelector(".navn").textContent = sted.navn;
-           //            document.querySelector(".langbeskrivelse").textContent = sted.langbeskrivelse;
-           document.querySelector(".kategori").textContent = `${"Kategori: "}` + sted.kategori;
+           document.querySelector(".kategori").textContent = sted.kategori;
+           document.querySelector(".langbeskrivelse").textContent = sted.langbeskrivelse;
            document.querySelector(".adresse").textContent = `${"Adresse: "}` + sted.adresse;
            document.querySelector("button").addEventListener("click", tilbageTilSted);
        }

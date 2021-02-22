@@ -18,7 +18,12 @@
 
 <body>
     <header id="my_header">
-        <img class="splash" src="splash.jpg" alt="">
+        <div class="container">
+            <img class="splash" src="splash.jpg" alt="">
+            <div class="center">
+                <img src="logo.svg" alt="">
+            </div>
+        </div>
         <nav>
             <button data-kategori="alle" class="valgt">Alle steder</button>
             <button data-kategori="Vesterbro">Vesterbro</button>
@@ -35,9 +40,9 @@
     <template>
         <article class="steder">
             <h2 class="navn"></h2>
+            <h3 class="kategori"></h3>
             <img src="" alt="" class="billede">
             <p class="kortbeskrivelse"></p>
-            <p class="kategori"></p>
             <p class="adresse"></p>
         </article>
     </template>
