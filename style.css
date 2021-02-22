@@ -30,7 +30,6 @@
 
  #liste {
      padding: 2rem;
-
  }
 
  article {
@@ -39,11 +38,22 @@
      box-shadow: -6px 3px 7px -2px rgba(0, 0, 0, 0.65);
  }
 
+ article p {
+     height: 70px;
+
+ }
+
+ article button {
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
  body {}
 
  .valgt {
      cursor: pointer;
-     background-color: #974478;
+     background-color: ghostwhite;
  }
 
  nav {
@@ -70,12 +80,15 @@
 
  button {
      font-family: 'Poppins', sans-serif;
-     background-color: #CBA9BE;
-     font-size: 0.8rem;
+     background-color: #FABEC6;
+     color: #33489B;
+     font-weight: 600;
+     font-size: 0.9rem;
      border: none;
      padding: 10px;
  }
 
+ /*
  h1 {
      font-family: 'Poppins', sans-serif;
      color: #FABEC6;
@@ -83,17 +96,20 @@
      text-transform: uppercase;
      padding: 25px;
  }
+*/
 
  h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.5rem;
      color: #33489B;
+     text-align: center;
  }
 
  h3 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.2rem;
      color: #FABEC6;
+     text-align: center;
  }
 
  p {
@@ -131,7 +147,8 @@
  }
 
  footer a {
-     color: white;
+     color: #FABEC6;
      text-decoration: none;
-     font-size: 0.8rem;
+     font-size: 0.9rem;
+     font-weight: 600;
  }
