@@ -89,14 +89,14 @@
  }
 
 
-
-
  #alle_steder {
-     background-color: rgb(255, 89, 68);
+     background-image: url(galleri/allesteder.jpg);
+     object-fit: cover;
+     background-size: cover
  }
 
  #vesterbro {
-     background-color: #FABEC6;
+
      background-image: url(galleri/vesterbro.jpg);
      object-fit: cover;
      background-size: cover
