@@ -59,7 +59,7 @@
 
  h1 {
      font-family: 'Poppins', sans-serif;
-     color: #33489B;
+     color: #FABEC6;
      font-size: 1.7rem;
      text-transform: uppercase;
      padding: 25px;
@@ -68,8 +68,7 @@
  h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.5rem;
-     font-weight: 400;
-     color: #FABEC6;
+     color: #33489B;
  }
 
  p {
