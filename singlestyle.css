@@ -34,7 +34,9 @@ h1 {
 
 button {
     font-family: 'Poppins', sans-serif;
-    background-color: #CBA9BE;
+    color: #33489B;
+    font-weight: 600;
+    background-color: #FABEC6;
     font-size: 0.8rem;
     border: none;
     padding: 10px;
