@@ -38,6 +38,11 @@
      box-shadow: -6px 3px 7px -2px rgba(0, 0, 0, 0.65);
  }
 
+ article p {
+     height: 70px;
+
+ }
+
  article button {
      display: flex;
      margin-left: auto;
