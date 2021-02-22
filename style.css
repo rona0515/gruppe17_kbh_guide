@@ -2,7 +2,9 @@
      width: 100%;
      object-fit: cover;
      height: 50vh;
+
      /*     display: block;*/
+
 
  }
 
@@ -47,6 +49,7 @@
      display: flex;
      margin-left: auto;
      margin-right: auto;
+
  }
 
  body {}
@@ -61,6 +64,7 @@
      justify-content: center;
      /*        align-items: center;*/
      margin: 1rem;
+
 
  }
 
@@ -86,6 +90,7 @@
      font-size: 0.9rem;
      border: none;
      padding: 10px;
+     cursor: pointer;
  }
 
 
@@ -99,32 +104,37 @@
      background-color: #FABEC6;
      background-image: url(galleri/vesterbro.jpg);
      object-fit: cover;
-     background-size: cover
+     background-size: cover;
+     cursor: pointer;
  }
 
  #oesterbro {
      background-image: url(galleri/oesterbro.jpg);
      object-fit: cover;
-     background-size: cover
+     background-size: cover;
+     cursor: pointer;
  }
 
  #noerrebro {
      background-color: #FADD78;
      background-image: url(galleri/norrebro.jpg);
      object-fit: cover;
-     background-size: cover
+     background-size: cover;
+     cursor: pointer;
  }
 
  #amager {
      background-image: url(galleri/amager.jpg);
      object-fit: cover;
-     background-size: cover
+     background-size: cover;
+     cursor: pointer;
  }
 
  #indre_by {
      background-image: url(galleri/indreby.jpg);
      object-fit: cover;
-     background-size: cover
+     background-size: cover;
+     cursor: pointer;
  }
 
 
