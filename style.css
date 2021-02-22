@@ -78,6 +78,7 @@
      padding: 10px;
  }
 
+ /*
  h1 {
      font-family: 'Poppins', sans-serif;
      color: #FABEC6;
@@ -85,17 +86,20 @@
      text-transform: uppercase;
      padding: 25px;
  }
+*/
 
  h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.5rem;
      color: #33489B;
+     text-align: center;
  }
 
  h3 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.2rem;
      color: #FABEC6;
+     text-align: center;
  }
 
  p {
@@ -133,7 +137,8 @@
  }
 
  footer a {
-     color: white;
+     color: #FABEC6;
      text-decoration: none;
      font-size: 0.8rem;
+     font-weight: 600;
  }
