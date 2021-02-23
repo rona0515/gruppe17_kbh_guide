@@ -56,6 +56,12 @@
 
  }
 
+ article a:hover {
+     border: #33489B 3px;
+
+ }
+
+
  body {}
 
  .valgt {
