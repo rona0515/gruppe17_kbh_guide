@@ -22,6 +22,7 @@
 
        function visSted() {
            document.querySelector(".billede").src = medieurl + sted.billede;
+           document.querySelector(".billede_baggrund").src = medieurl + sted.billede;
            document.querySelector(".navn").textContent = sted.navn;
            document.querySelector(".kategori").textContent = sted.kategori;
            document.querySelector(".langbeskrivelse").textContent = sted.langbeskrivelse;
