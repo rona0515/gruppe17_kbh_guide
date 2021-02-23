@@ -3,35 +3,19 @@
     margin: 0px;
 }
 
-
-
 img {
     width: 100%;
     object-fit: cover;
     height: 50vh;
-
-
-
-    /*     display: block;*/
-
-
-
-
 }
-
-
 
 .splash {
     display: none;
 }
 
-
-
 .container {
     position: relative;
 }
-
-
 
 .center {
     position: absolute;
@@ -40,14 +24,9 @@ img {
     transform: translate(-50%, -50%);
 }
 
-
-
 .center img {
     object-fit: contain;
 }
-
-
-
 
 section {
     display: grid;
@@ -55,13 +34,9 @@ section {
     grid-gap: 1rem;
 }
 
-
-
 #liste {
     padding: 2rem;
 }
-
-
 
 article {
     /*    border: 1px solid #974478;*/
@@ -69,57 +44,29 @@ article {
     box-shadow: -6px 3px 7px -2px rgba(51, 72, 155, 0.74);
 }
 
-
-
 article p {
     height: 70px;
-
-
-
 }
-
-
 
 article button {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-
-
-
 }
 
-
-
 body {}
-
-
 
 .valgt {
     cursor: pointer;
     background-color: ghostwhite;
 }
 
-
-
 nav {
     display: flex;
     justify-content: center;
-    /*        align-items: center;*/
     margin: 1rem;
-
-
-
-
 }
 
-
-
-/*
-    section {
-        background-color: #974478;
-    }
-*/
 section,
 h1 {
     max-width: 1200px;
@@ -128,12 +75,9 @@ h1 {
     padding: 10px;
 }
 
-
-
-
 button {
     font-family: 'Poppins', sans-serif;
-    background-color: #33489B;
+    background-color: #fabec6;
     color: #33489B;
     font-weight: 600;
     font-size: 0.9rem;
@@ -142,16 +86,10 @@ button {
     cursor: pointer;
 }
 
-
-
-
 nav button:hover {
     border: 5px solid #33489B;
     border-radius: 7px
 }
-
-
-
 
 nav {
     display: grid;
@@ -161,10 +99,6 @@ nav {
     grid-auto-flow: dense;
 }
 
-
-
-
-
 #alle_steder {
     background-image: url(galleri/allesteder.jpg);
     background-color: rgba(253, 247, 230, 0.8);
@@ -172,8 +106,6 @@ nav {
     object-fit: cover;
     background-size: cover
 }
-
-
 
 #vesterbro {
     background-image: url(galleri/vesterbro.jpg);
@@ -184,8 +116,6 @@ nav {
     cursor: pointer;
 }
 
-
-
 #oesterbro {
     background-image: url(galleri/oesterbro.jpg);
     background-color: rgb(129, 152, 245);
@@ -194,8 +124,6 @@ nav {
     background-size: cover;
     cursor: pointer;
 }
-
-
 
 #noerrebro {
     background-image: url(galleri/norrebro.jpg);
@@ -206,8 +134,6 @@ nav {
     cursor: pointer;
 }
 
-
-
 #amager {
     background-image: url(galleri/amager.jpg);
     background-color: rgba(163, 217, 122, 0.84);
@@ -216,8 +142,6 @@ nav {
     background-size: cover;
     cursor: pointer;
 }
-
-
 
 #indre_by {
     background-image: url(galleri/indreby.jpg);
@@ -228,17 +152,10 @@ nav {
     cursor: pointer;
 }
 
-
-
-
 .valgt {
     background-color: none;
     background-blend-mode: none;
 }
-
-
-
-
 
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -248,9 +165,6 @@ h1 {
     padding: 25px;
 }
 
-
-
-
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
@@ -258,16 +172,12 @@ h2 {
     text-align: center;
 }
 
-
-
 h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     color: #FABEC6;
     text-align: center;
 }
-
-
 
 p {
     font-family: 'Roboto Slab', serif;
@@ -277,30 +187,9 @@ p {
     color: #33489B;
 }
 
-
-
 .mySlides {
     opacity: 60%;
 }
-
-
-
-/*
- .splash {
-     background-image: url(splash.jpg);
-     background-size: cover;
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     max-width: none;
-     top: 0;
-     left: 0;
-     margin-right: 0;
-     opacity: 60%;
- }
-*/
-
-
 
 footer {
     display: block;
@@ -314,8 +203,6 @@ footer {
     border-radius: 3px;
     background-color: #FABEC6;
 }
-
-
 
 footer a {
     color: #33489B;
