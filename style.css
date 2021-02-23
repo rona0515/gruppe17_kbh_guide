@@ -60,12 +60,6 @@ article:hover {
     border-radius: 5px;
 }
 
-body {}
-
-.valgt {
-    cursor: pointer;
-}
-
 nav {
     display: flex;
     justify-content: center;
