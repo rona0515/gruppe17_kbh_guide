@@ -6,6 +6,10 @@
 
  }
 
+ .splash {
+     display: none;
+ }
+
  .container {
      position: relative;
  }
@@ -104,6 +108,11 @@
      color: #33489B;
  }
 
+ .mySlides {
+     opacity: 60%;
+ }
+
+ /*
  .splash {
      background-image: url(splash.jpg);
      background-size: cover;
@@ -116,6 +125,7 @@
      margin-right: 0;
      opacity: 60%;
  }
+*/
 
  footer {
      display: block;
