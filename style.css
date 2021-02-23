@@ -61,9 +61,12 @@ article:hover {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
     margin: 1rem;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-flow: dense;
 }
 
 section,
@@ -90,13 +93,6 @@ nav button:hover {
     border-radius: 5px;
 }
 
-nav {
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-flow: dense;
-}
 
 #alle_steder {
     background-image: url(galleri/allesteder.jpg);
