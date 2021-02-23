@@ -21,15 +21,22 @@ article {
     border-radius: 3px;
     max-width: 600px;
     box-shadow: -6px 3px 7px -2px rgba(51, 72, 155, 0.74);
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     z-index: 1;
     position: absolute;
-    border: 2px solid black;
+    background-color: white;
 }
 
 
-body {}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.69);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 section,
@@ -45,6 +52,7 @@ article button {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 button {
     font-family: 'Poppins', sans-serif;
@@ -88,9 +96,9 @@ p {
 }
 
 
-.billede_baggrund {
+/*.billede_baggrund {
     position: relative;
     height: auto;
     z-index: -1;
     object-fit: contain;
-}
+}*/
