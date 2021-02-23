@@ -46,12 +46,18 @@ article {
 
 article p {
     height: 70px;
+    padding: 10px;
 }
 
 article button {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+article:hover {
+    border: 5px solid #33489B;
+    border-radius: 6px;
 }
 
 body {}
@@ -88,7 +94,7 @@ button {
 
 nav button:hover {
     border: 5px solid #33489B;
-    border-radius: 7px
+    border-radius: 6px
 }
 
 nav {
