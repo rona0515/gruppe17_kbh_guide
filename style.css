@@ -57,7 +57,7 @@ article button {
 
 article:hover {
     border: 5px solid #33489B;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 body {}
@@ -94,7 +94,7 @@ button {
 
 nav button:hover {
     border: 5px solid #33489B;
-    border-radius: 6px
+    border-radius: 5px;
 }
 
 nav {
@@ -124,7 +124,7 @@ nav {
 
 #oesterbro {
     background-image: url(galleri/oesterbro.jpg);
-    background-color: rgb(129, 152, 245);
+    background-color: rgb(192, 203, 247);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover;
@@ -133,7 +133,7 @@ nav {
 
 #noerrebro {
     background-image: url(galleri/norrebro.jpg);
-    background-color: rgba(255, 230, 145, 0.78);
+    background-color: rgba(250, 234, 180, 0.85);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover;
@@ -142,7 +142,7 @@ nav {
 
 #amager {
     background-image: url(galleri/amager.jpg);
-    background-color: rgba(163, 217, 122, 0.84);
+    background-color: rgba(210, 247, 183, 0.84);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover;
@@ -151,7 +151,7 @@ nav {
 
 #indre_by {
     background-image: url(galleri/indreby.jpg);
-    background-color: rgba(125, 231, 235, 0.78);
+    background-color: rgba(175, 253, 250, 0.84);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover;
