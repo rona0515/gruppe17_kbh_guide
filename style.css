@@ -98,7 +98,6 @@
  }
 
 
-<<<<<<< HEAD
 
  #alle_steder {
      background-image: url(galleri/allesteder.jpg);
@@ -112,35 +111,19 @@
      object-fit: cover;
      background-size: cover;
      cursor: pointer;
-=======
- #alle_steder {
-     background-color: rgb(255, 89, 68);
- }
-
- #vesterbro {
-     background-color: #FABEC6;
-     background-image: url(galleri/vesterbro.jpg);
-     object-fit: cover;
-     background-size: cover
->>>>>>> origin/branch_ronas
  }
 
  #oesterbro {
      background-image: url(galleri/oesterbro.jpg);
      object-fit: cover;
-<<<<<<< HEAD
      background-size: cover;
      cursor: pointer;
-=======
-     background-size: cover
->>>>>>> origin/branch_ronas
  }
 
  #noerrebro {
      background-color: #FADD78;
      background-image: url(galleri/norrebro.jpg);
      object-fit: cover;
-<<<<<<< HEAD
      background-size: cover;
      cursor: pointer;
  }
@@ -157,21 +140,6 @@
      object-fit: cover;
      background-size: cover;
      cursor: pointer;
-=======
-     background-size: cover
- }
-
- #amager {
-      background-image: url(galleri/amager.jpg);
-     object-fit: cover;
-     background-size: cover
- }
-
- #indre_by {
-      background-image: url(galleri/indreby.jpg);
-     object-fit: cover;
-     background-size: cover
->>>>>>> origin/branch_ronas
  }
 
 
@@ -181,10 +149,7 @@
  }
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/branch_ronas
  h1 {
      font-family: 'Poppins', sans-serif;
      color: #FABEC6;
