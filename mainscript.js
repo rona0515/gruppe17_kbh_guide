@@ -8,14 +8,34 @@
  document.addEventListener("DOMContentLoaded", start)
  let steder;
  let filter = "alle";
+ let counter = 0;
+
 
  //første funktion der kaldes efter Dom er loaded
+
+ var myIndex = 0;
+
+
+ function carousel() {
+     var i;
+     var x = document.getElementsByClassName("mySlides");
+     for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+     }
+     myIndex++;
+     if (myIndex > x.length) {
+         myIndex = 1
+     }
+     x[myIndex - 1].style.display = "block";
+     setTimeout(carousel, 5000); // Change image every 2 seconds
+ }
 
  function start() {
      console.log("DOM er loadet");
      const filterKnapper = document.querySelectorAll("nav button");
      filterKnapper.forEach(knap => knap.addEventListener("click", filtrerSteder));
      loadJSON();
+     carousel();
  }
 
  function filtrerSteder() {
