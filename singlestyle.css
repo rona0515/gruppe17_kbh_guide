@@ -34,9 +34,14 @@ article {
 
 }
 
-
-body {}
-
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.69);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 section,
 h1 {
@@ -111,12 +116,12 @@ p {
         padding: 25px
     }
 
-    #logo{
+    #logo {
         position: absolute;
 
     }
 
-    #logo img{
+    #logo img {
         object-fit: contain;
     }
 
@@ -162,11 +167,11 @@ p {
 
     }
 
-   p.adresse {
-   font-weight: 900;
+    p.adresse {
+        font-weight: 900;
     }
 
-    button{
+    button {
         margin-top: 86px;
     }
 
