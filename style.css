@@ -246,12 +246,4 @@ footer {
     border: none;
     padding: 10px;
     background-color: #33489B;
-
-    /*
-    scroll-snap-type: y proximity;
-    overflow-y: scroll;
-    scroll-snap-align: start;
-*/
 }
-
-/
