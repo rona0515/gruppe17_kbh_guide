@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0px;
     margin: 0px;
@@ -249,3 +250,219 @@ footer {
     padding: 10px;
     background-color: #33489B;
 }
+=======
+ img {
+     width: 100%;
+     object-fit: cover;
+     height: 50vh;
+
+     /*     display: block;*/
+
+
+ }
+
+ .container {
+     position: relative;
+ }
+
+ .center {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .center img {
+     object-fit: contain;
+ }
+
+
+ section {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     grid-gap: 1rem;
+ }
+
+ #liste {
+     padding: 2rem;
+ }
+
+ article {
+     /*    border: 1px solid #974478;*/
+     padding: 1rem;
+     box-shadow: -6px 3px 7px -2px rgba(0, 0, 0, 0.65);
+
+
+ }
+
+ article p {
+     height: 70px;
+
+ }
+
+ article button {
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+
+ body {}
+
+ .valgt {
+     cursor: pointer;
+     background-color: ghostwhite;
+ }
+
+ nav {
+     display: flex;
+     justify-content: center;
+     /*        align-items: center;*/
+     margin: 1rem;
+
+
+ }
+
+ /*
+    section {
+        background-color: #974478;
+    }
+*/
+ section,
+ h1 {
+     max-width: 1200px;
+     height: auto;
+     margin: 0 auto;
+     padding: 10px;
+ }
+
+
+ button {
+     font-family: 'Poppins', sans-serif;
+     background-color: #FABEC6;
+     color: #33489B;
+     font-weight: 600;
+     font-size: 0.9rem;
+     border: none;
+     padding: 10px;
+     cursor: pointer;
+ }
+
+
+
+
+ #alle_steder {
+     background-color: rgb(255, 89, 68);
+ }
+
+ #vesterbro {
+     background-color: #FABEC6;
+     background-image: url(galleri/vesterbro.jpg);
+     object-fit: cover;
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ #oesterbro {
+     background-image: url(galleri/oesterbro.jpg);
+     object-fit: cover;
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ #noerrebro {
+     background-color: #FADD78;
+     background-image: url(galleri/norrebro.jpg);
+     object-fit: cover;
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ #amager {
+     background-image: url(galleri/amager.jpg);
+     object-fit: cover;
+     background-size: cover;
+     cursor: pointer;
+ }
+
+ #indre_by {
+     background-image: url(galleri/indreby.jpg);
+     object-fit: cover;
+     background-size: cover;
+     cursor: pointer;
+ }
+
+
+ .valgt {
+     opacity: 0.5;
+
+ }
+
+
+
+ h1 {
+     font-family: 'Poppins', sans-serif;
+     color: #FABEC6;
+     font-size: 1.7rem;
+     text-transform: uppercase;
+     padding: 25px;
+ }
+
+
+ h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.5rem;
+     color: #33489B;
+     text-align: center;
+ }
+
+ h3 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.2rem;
+     color: #FABEC6;
+     text-align: center;
+ }
+
+ p {
+     font-family: 'Roboto Slab', serif;
+     font-size: 1rem;
+     color: black;
+     line-height: 1.4;
+     color: #33489B;
+ }
+
+ .splash {
+     background-image: url(splash.jpg);
+     background-size: cover;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     max-width: none;
+     top: 0;
+     left: 0;
+     margin-right: 0;
+     opacity: 60%;
+ }
+
+
+
+ footer {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     border: none;
+     padding: 10px;
+     width: 80px;
+     border-radius: 3px;
+     background-color: #33489B;
+ }
+
+ footer a {
+     color: #FABEC6;
+     text-decoration: none;
+     font-size: 0.9rem;
+     font-weight: 600;
+ }
+>>>>>>> Nico
