@@ -74,6 +74,8 @@ nav {
     grid-auto-flow: dense;
 }
 
+
+
 section,
 h1 {
     max-width: 1200px;
@@ -87,7 +89,7 @@ button {
     background-color: #FABEC6;
     color: #33489B;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1rem;
     border: none;
     padding: 10px;
     cursor: pointer;

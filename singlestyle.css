@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
     object-fit: cover;
@@ -21,22 +27,15 @@ article {
     border-radius: 3px;
     max-width: 600px;
     box-shadow: -6px 3px 7px -2px rgba(51, 72, 155, 0.74);
-    margin: 0 auto;
-    z-index: 1;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
+    width: 90%;
+
 }
 
 
-body {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.69);
-    background-blend-mode: soft-light;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+body {}
 
 
 section,
@@ -52,7 +51,6 @@ article button {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 button {
     font-family: 'Poppins', sans-serif;
@@ -95,10 +93,91 @@ p {
     line-height: 1.4;
 }
 
+@media (min-width: 700px) {
 
-/*.billede_baggrund {
-    position: relative;
-    height: auto;
-    z-index: -1;
-    object-fit: contain;
-}*/
+    body {
+        position: relative;
+        min-height: 100%;
+        min-height: 100vh;
+    }
+
+    #header {
+        display: block;
+        border: none;
+        max-width: 100%;
+        background-color: #33489B;
+        z-index: 10;
+        margin: 0;
+        padding: 25px
+    }
+
+    #logo{
+        position: absolute;
+
+    }
+
+    #logo img{
+        object-fit: contain;
+    }
+
+    article {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        max-width: 70%;
+
+
+
+    }
+
+    .my_position {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+
+        left: 50%;
+    }
+
+    article img {
+        height: 60vh;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+
+    }
+
+   p.adresse {
+   font-weight: 900;
+    }
+
+    button{
+        margin-top: 86px;
+    }
+
+    #footer {
+        max-width: 100%;
+        background-color: #33489B;
+        margin: 0;
+        padding: 40px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
