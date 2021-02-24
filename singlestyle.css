@@ -4,18 +4,15 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-body {
+<<<<<<< HEAD body {
     background-color: rgba(255, 255, 255, 0.69);
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-img {
-=======
+
 article img {
->>>>>>> origin/master
     width: 100%;
     object-fit: cover;
     margin-left: auto;
@@ -30,25 +27,25 @@ section {
 }
 
 
-  #header {
-        display: block;
-        border: none;
-        max-width: 100%;
-        background-color: #33489B;
-        padding: 12px;
-    }
+#header {
+    display: block;
+    border: none;
+    max-width: 100%;
+    background-color: #33489B;
+    padding: 12px;
+}
 
-#logo img{
+#logo img {
     height: 12vw;
     width: 12vw;
 }
 
- #footer {
-        max-width: 100%;
-        background-color: #33489B;
-        margin: 0;
-        padding: 25px;
-    }
+#footer {
+    max-width: 100%;
+    background-color: #33489B;
+    margin: 0;
+    padding: 25px;
+}
 
 
 
@@ -62,14 +59,10 @@ article {
     margin-right: auto;
     background-color: white;
     width: 90%;
-<<<<<<< HEAD
     margin-bottom: 30px;
     margin-top: 30px;
-=======
     margin-top: 3rem;
     margin-bottom: 5rem;
->>>>>>> origin/master
-
 }
 
 
@@ -99,16 +92,15 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
-<<<<<<< HEAD
     padding-top: 20px;
 }
 
 button:hover {
     border: 3px solid #33489B;
     border-radius: 5px;
-=======
+
     border-radius: 3px;
->>>>>>> origin/master
+
 }
 
 h1 {
@@ -141,8 +133,6 @@ p {
     line-height: 1.4;
 }
 
-<<<<<<< HEAD
-=======
 .fa {
     padding: 10px;
     font-size: 10px;
@@ -199,7 +189,7 @@ footer {
     top: 4px;
 
 }
->>>>>>> origin/master
+
 
 @media (min-width: 700px) {
 
@@ -209,7 +199,6 @@ footer {
         min-height: 100vh;
     }
 
-<<<<<<< HEAD
     #header {
         display: block;
         border: none;
@@ -220,31 +209,24 @@ footer {
         padding: 25px
     }
 
-    #logo{
+    #logo {
         position: absolute;
 
     }
 
-    #logo img{
+    #logo img {
         object-fit: contain;
     }
 
-=======
->>>>>>> origin/master
     article {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
         max-width: 70%;
-<<<<<<< HEAD
         margin: 0;
 
-
-
-=======
         margin-top: 0;
         margin-bottom: 0;
->>>>>>> origin/master
     }
 
     .my_position {
@@ -276,11 +258,11 @@ footer {
         line-height: 1.6;
     }
 
-   p.adresse {
-   font-weight: 900;
+    p.adresse {
+        font-weight: 900;
     }
 
-    button{
+    button {
         margin-top: 86px;
         font-size: 1rem
     }
