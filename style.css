@@ -9,6 +9,18 @@ html {
 
 body {}
 
+.top {
+    display: block;
+    border: none;
+    width: 100%;
+    background-color: #33489B;
+    z-index: 10;
+    margin: 0;
+    padding: 30px;
+/*    position: fixed;*/
+}
+
+
 img {
     width: 100%;
     object-fit: cover;
