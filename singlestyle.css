@@ -11,14 +11,32 @@ body {
     background-size: cover;
 }
 
-
-article img {
+/*HEADER*/
+#header {
+    display: block;
+    border: none;
     width: 100%;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50vh;
+    background-color: #33489B;
+    z-index: 10;
+    margin: 0;
+    padding: 30px;
+    position: fixed;
 }
+
+/*
+#logo img {
+    height: 12vw;
+    width: 12vw;
+}
+*/
+
+.logo {
+    position: absolute;
+    height: 60px;
+    top: 4px;
+}
+
+/*ARTICLE STYLING*/
 
 section {
     display: grid;
@@ -26,18 +44,12 @@ section {
     grid-gap: 1rem;
 }
 
-
-#header {
-    display: block;
-    border: none;
-    max-width: 100%;
-    background-color: #33489B;
-    padding: 12px;
-}
-
-#logo img {
-    height: 12vw;
-    width: 12vw;
+section,
+h1 {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 article {
@@ -51,22 +63,23 @@ article {
     width: 90%;
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-top: 3rem;
-    margin-bottom: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
 }
 
-section,
-h1 {
-    max-width: 1200px;
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
+article img {
+    width: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
 }
 
 article button {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 35px;
 }
 
 button {
@@ -117,6 +130,8 @@ p {
     line-height: 1.4;
 }
 
+/*FOOTER*/
+
 .fa {
     padding: 10px;
     font-size: 10px;
@@ -154,48 +169,12 @@ footer {
     width: 100%;
 }
 
-#header {
-    display: block;
-    border: none;
-    width: 100%;
-    background-color: #33489B;
-    z-index: 10;
-    margin: 0;
-    padding: 30px;
-    position: fixed;
-}
-
-
-.logo {
-    position: absolute;
-    height: 60px;
-    top: 4px;
-}
+/*MEDIAQUERY*/
 
 @media (min-width: 700px) {
+
     body {
-        position: relative;
-        min-height: 100%;
-        min-height: 100vh;
-    }
-
-    #header {
-        display: block;
-        border: none;
-        max-width: 100%;
-        background-color: #33489B;
-        z-index: 10;
-        margin: 0;
-        padding: 30px;
-    }
-
-    #logo {
-        position: absolute;
-
-    }
-
-    #logo img {
-        object-fit: contain;
+        height: 100vw;
     }
 
     article {
@@ -242,7 +221,7 @@ footer {
     }
 
     button {
-        margin-top: 40px;
+        margin-top: 50px;
         font-size: 1rem;
     }
 }
