@@ -84,3 +84,44 @@
      location.href = `singleview.html?id=${hvad._id}`;
 
  }
+
+
+
+
+ /*-------------------Burger-menu javaScript---------------*/
+ //
+ // const navSLide = () => {
+ //     const burger = document.querySelector('.burger');
+ //     const nav = document.querySelector(".nav-btns");
+ //
+ //     burger.addEventListener('click', () => {
+ //         nav.classList.toggle('nav-active');
+ //     });
+ // }
+ //
+ // navSLide();
+
+
+
+ window.addEventListener("load", sidenVises);
+
+ const navButtons = document.querySelectorAll(".nav-btns li");
+
+ function sidenVises() {
+     console.log("sidenVises");
+     document.querySelector(".burger").addEventListener("click", toggleMenu);
+
+ }
+
+ function toggleMenu() {
+     console.log("toggleMenu");
+
+     document.querySelector(".nav-btns").classList.toggle("nav-active");
+
+
+         //Putter animation på knapper
+         navButtons.forEach((button, index) => {
+            console.log(index);
+         });
+
+ }
