@@ -172,6 +172,11 @@ footer {
 /*MEDIAQUERY*/
 
 @media (min-width: 700px) {
+
+    body {
+        height: 100vw;
+    }
+
     article {
         display: grid;
         grid-template-columns: 1fr 1fr;
