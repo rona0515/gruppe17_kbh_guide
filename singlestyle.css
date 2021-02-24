@@ -23,6 +23,7 @@ article {
     box-shadow: -6px 3px 7px -2px rgba(51, 72, 155, 0.74);
     margin-left: auto;
     margin-right: auto;
+
 }
 
 
@@ -82,4 +83,23 @@ p {
     font-size: 1rem;
     color: #33489B;
     line-height: 1.4;
+}
+
+@media (min-width: 700px){
+
+    article{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    }
+
+     .my_position {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 50%;
+
+                left: 50%;
+            }
 }
