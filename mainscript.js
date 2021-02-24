@@ -30,37 +30,6 @@
      setTimeout(carousel, 5000); // Change image every 2 seconds
  }
 
- //footer scroll funktion
-
-// $(window).scroll(function () {
-            //     if ($(this).scrollTop()) {
-            //         $("#toTop").fadeIn();
-            //     } else {
-            //         $("#toTop").fadeOut();
-            //     }
-            // });
-            //
-            //
-            // $("#footer").click(function () {
-            //     $("html, body").animate({
-            //         scrollTop: 0
-            //     }, 1000);
-            // });
-            //
-            // if ($(window).scrollTop() + $(window).height() < $(document).height() - $("#footer").height()) {
-            //     $('#toTop').css("position", "fixed"); //resetting it
-            //     $('#toTop').css("bottom", "0"); //resetting it
-            // } else {
-            //     $('#toTop').css("position", "relative"); // make it related
-            //     $('#toTop').css("bottom", "60px"); // 60 px, height of #toTop
-            // }
-            // // $(document).ready(function () {
-            // //     $("#footer").click(function () {
-            // //         $('html ,body').animate({
-            // //             scrollTop: 0
-            // //         }, 800);
-            // //     });
-            // // });
  // filtrering funcitoner
 
  function start() {
