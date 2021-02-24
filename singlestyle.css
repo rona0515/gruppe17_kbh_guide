@@ -4,21 +4,18 @@
     box-sizing: border-box;
 }
 
-img {
+article img {
     width: 100%;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
     height: 50vh;
-
-
 }
 
 section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
-
 }
 
 article {
@@ -31,6 +28,8 @@ article {
     margin-right: auto;
     background-color: white;
     width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 
 }
 
@@ -96,6 +95,63 @@ p {
     line-height: 1.4;
 }
 
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #FABEC6;
+    color: #33489B;
+}
+
+.fa-facebook {
+    background: #FABEC6;
+    color: #33489B;
+}
+
+footer {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 10px;
+    background-color: #33489B;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#header {
+    display: block;
+    border: none;
+    width: 100%;
+    background-color: #33489B;
+    z-index: 10;
+    margin: 0;
+    padding: 30px;
+    position: fixed;
+}
+
+
+.logo {
+    position: absolute;
+    height: 60px;
+    top: 4px;
+
+}
+
 @media (min-width: 700px) {
 
     body {
@@ -104,41 +160,19 @@ p {
         min-height: 100vh;
     }
 
-    #header {
-        display: block;
-        border: none;
-        max-width: 100%;
-        background-color: #33489B;
-        z-index: 10;
-        margin: 0;
-        padding: 25px
-    }
-
-    #logo {
-        position: absolute;
-
-    }
-
-    #logo img {
-        object-fit: contain;
-    }
-
     article {
-
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
         max-width: 70%;
-
-
-
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .my_position {
         position: absolute;
         transform: translate(-50%, -50%);
         top: 50%;
-
         left: 50%;
     }
 
@@ -162,7 +196,6 @@ p {
     p {
         font-size: 1.1rem;
         line-height: 1.6;
-
     }
 
     p.adresse {
@@ -171,16 +204,5 @@ p {
 
     button {
         margin-top: 86px;
-    }
-
-    #footer {
-        max-width: 100%;
-        background-color: #33489B;
-        margin: 0;
-        padding: 40px;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
     }
 }
