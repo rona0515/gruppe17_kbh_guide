@@ -115,13 +115,13 @@
 
  function toggleMenu() {
      console.log("toggleMenu");
+     const burger = document.querySelector('.burger');
 
      document.querySelector(".nav-btns").classList.toggle("nav-active");
 
 
-         //Putter animation på knapper
-         navButtons.forEach((button, index) => {
-            console.log(index);
-         });
+     //Burger kryds
+     burger.classList.toggle('toggle');
+
 
  }
