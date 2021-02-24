@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
     background-color: rgba(255, 255, 255, 0.69);
     background-blend-mode: soft-light;
@@ -12,20 +13,20 @@ body {
 }
 
 img {
+=======
+article img {
+>>>>>>> origin/master
     width: 100%;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
     height: 50vh;
-
-
 }
 
 section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
-
 }
 
 
@@ -61,8 +62,13 @@ article {
     margin-right: auto;
     background-color: white;
     width: 90%;
+<<<<<<< HEAD
     margin-bottom: 30px;
     margin-top: 30px;
+=======
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+>>>>>>> origin/master
 
 }
 
@@ -93,12 +99,16 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
+<<<<<<< HEAD
     padding-top: 20px;
 }
 
 button:hover {
     border: 3px solid #33489B;
     border-radius: 5px;
+=======
+    border-radius: 3px;
+>>>>>>> origin/master
 }
 
 h1 {
@@ -131,6 +141,65 @@ p {
     line-height: 1.4;
 }
 
+<<<<<<< HEAD
+=======
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #FABEC6;
+    color: #33489B;
+}
+
+.fa-facebook {
+    background: #FABEC6;
+    color: #33489B;
+}
+
+footer {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 10px;
+    background-color: #33489B;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#header {
+    display: block;
+    border: none;
+    width: 100%;
+    background-color: #33489B;
+    z-index: 10;
+    margin: 0;
+    padding: 30px;
+    position: fixed;
+}
+
+
+.logo {
+    position: absolute;
+    height: 60px;
+    top: 4px;
+
+}
+>>>>>>> origin/master
 
 @media (min-width: 700px) {
 
@@ -140,6 +209,7 @@ p {
         min-height: 100vh;
     }
 
+<<<<<<< HEAD
     #header {
         display: block;
         border: none;
@@ -159,23 +229,28 @@ p {
         object-fit: contain;
     }
 
+=======
+>>>>>>> origin/master
     article {
-
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
         max-width: 70%;
+<<<<<<< HEAD
         margin: 0;
 
 
 
+=======
+        margin-top: 0;
+        margin-bottom: 0;
+>>>>>>> origin/master
     }
 
     .my_position {
         position: absolute;
         transform: translate(-50%, -50%);
         top: 50%;
-
         left: 50%;
     }
 
@@ -199,7 +274,6 @@ p {
     p {
         font-size: 1.1rem;
         line-height: 1.6;
-
     }
 
    p.adresse {
@@ -209,16 +283,5 @@ p {
     button{
         margin-top: 86px;
         font-size: 1rem
-    }
-
-    #footer {
-        max-width: 100%;
-        background-color: #33489B;
-        margin: 0;
-        padding: 40px;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
     }
 }
