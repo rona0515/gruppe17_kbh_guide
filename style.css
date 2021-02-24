@@ -7,17 +7,13 @@ html {
     scroll-behavior: smooth;
 }
 
-body {}
-
 .top {
     display: block;
     border: none;
-    width: 100%;
     background-color: #33489B;
     z-index: 10;
     margin: 0;
     padding: 30px;
-    /*    position: fixed;*/
 }
 
 
@@ -85,8 +81,6 @@ nav {
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-flow: dense;
 }
-
-
 
 section,
 h1 {
