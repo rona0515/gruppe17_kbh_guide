@@ -27,7 +27,7 @@ function carousel() {
         myIndex = 1
     }
     x[myIndex - 1].style.display = "block";
-    setTimeout(carousel, 5000); // Change image every 5 seconds
+    setTimeout(carousel, 3000); // Change image every 3 seconds
 }
 
 /*-------------------BURGER-MENU---------------*/
