@@ -225,7 +225,7 @@ p {
 .arrow-btn {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    left: 25px;
 }
 
 .arrow-btn a {
