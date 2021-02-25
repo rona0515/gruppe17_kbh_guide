@@ -7,17 +7,13 @@ html {
     scroll-behavior: smooth;
 }
 
-body {}
-
 .top {
     display: block;
     border: none;
-    width: 100%;
     background-color: #33489B;
     z-index: 10;
     margin: 0;
     padding: 30px;
-/*    position: fixed;*/
 }
 
 
@@ -86,8 +82,6 @@ nav {
     grid-auto-flow: dense;
 }
 
-
-
 section,
 h1 {
     max-width: 1200px;
@@ -116,7 +110,7 @@ button:hover {
 
 #alle_steder {
     background-image: url(galleri/allesteder.jpg);
-    background-color: rgba(253, 247, 230, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover
@@ -124,7 +118,7 @@ button:hover {
 
 #vesterbro {
     background-image: url(galleri/vesterbro.jpg);
-    background-color: #FABEC6;
+    background-color: rgb(253, 200, 207);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover;
@@ -142,7 +136,7 @@ button:hover {
 
 #noerrebro {
     background-image: url(galleri/norrebro.jpg);
-    background-color: rgba(250, 234, 180, 0.85);
+    background-color: rgba(255, 242, 200, 0.85);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover;
@@ -151,7 +145,7 @@ button:hover {
 
 #amager {
     background-image: url(galleri/amager.jpg);
-    background-color: rgba(210, 247, 183, 0.84);
+    background-color: rgba(243, 255, 230, 0.84);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover;
@@ -160,7 +154,7 @@ button:hover {
 
 #indre_by {
     background-image: url(galleri/indreby.jpg);
-    background-color: rgba(175, 253, 250, 0.84);
+    background-color: rgba(210, 246, 255, 0.88);
     background-blend-mode: soft-light;
     object-fit: cover;
     background-size: cover;
