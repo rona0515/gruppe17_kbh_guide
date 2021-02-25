@@ -30,6 +30,26 @@
      setTimeout(carousel, 5000); // Change image every 2 seconds
  }
 
+ /*-------------------Burger-menu javaScript---------------*/
+
+ window.addEventListener("load", sidenVises);
+ const navButtons = document.querySelectorAll(".nav-btns li");
+
+ function sidenVises() {
+     console.log("sidenVises");
+     document.querySelector(".burger").addEventListener("click", toggleMenu);
+ }
+
+ function toggleMenu() {
+     console.log("toggleMenu");
+     const burger = document.querySelector('.burger');
+
+     document.querySelector(".nav-btns").classList.toggle("nav-active");
+
+     //Burger kryds
+     burger.classList.toggle('toggle');
+ }
+
  // filtrering funcitoner
 
  function start() {
