@@ -38,6 +38,11 @@ h4 {
     color: #FABEC6;
     padding-right: 40px;
     font-size: 1.2rem;
+    cursor: pointer;
+}
+
+h4:hover {
+    opacity: 80%;
 }
 
 /*splash*/
@@ -283,6 +288,7 @@ p {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .fa:hover {
