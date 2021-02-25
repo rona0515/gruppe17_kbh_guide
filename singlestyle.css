@@ -24,13 +24,6 @@ body {
     position: fixed;
 }
 
-/*
-#logo img {
-    height: 12vw;
-    width: 12vw;
-}
-*/
-
 .logo {
     position: absolute;
     height: 60px;
