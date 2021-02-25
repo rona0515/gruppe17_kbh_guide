@@ -6,7 +6,7 @@
 
 
 body {
-    overflow-x: hidden;
+    /*    overflow-x: hidden;*/
 }
 
 img {
@@ -66,25 +66,6 @@ article:hover {
     border-radius: 5px;
 }
 
-/*
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: #33489B;
-
-}
-*/
-
-
-.nav-btns {
-    display: flex;
-    width: 85%;
-    justify-content: space-between;
-    background-color: aqua;
-    list-style: none;
-}
 
 /*------Burger-menuen, der ikke vises i desktop-version-------*/
 .burger {
@@ -144,7 +125,7 @@ nav button:hover {
     background-color: rgba(253, 247, 230, 0.8);
     background-blend-mode: soft-light;
     object-fit: cover;
-    background-size: cover
+    background-size: cover;
 }
 
 #vesterbro {
@@ -181,6 +162,8 @@ nav button:hover {
     object-fit: cover;
     background-size: cover;
     cursor: pointer;
+
+
 }
 
 #indre_by {
@@ -252,6 +235,14 @@ footer a {
 
 @media screen and (max-width: 685px) {
 
+    .nav-btns {
+        display: flex;
+        width: 85%;
+        justify-content: space-between;
+        background-color: aqua;
+    }
+
+
     /*------Indholdet i burgermenuen i mobileversion-------*/
     .nav-btns {
         display: flex;
@@ -259,20 +250,20 @@ footer a {
         position: fixed;
         right: 0px;
         height: 100vh;
+        padding: 3vw;
         opacity: 95%;
+        list-style: none;
         top: 0vh;
-        padding-bottom: 3vh;
-        padding-top: 4vh;
         background-color: #33489B;
         align-items: center;
-        width: 50%;
+        width: 60%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
 
-    /*------Bruges til at fade indholdet ind igen, når menuen åbnes-------*/
-    .nav-btns li {
-
+    .nav-btns button {
+        width: 50vw;
+        height: 15vh;
     }
 
 
@@ -319,8 +310,19 @@ footer a {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 
+}
 
 
 
+
+
+
+@media screen and (min-width: 686px) {
+
+
+    .nav-btns {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
 
 }
