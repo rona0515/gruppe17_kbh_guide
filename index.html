@@ -19,20 +19,24 @@
 
 <body>
     <header>
+        <!--       Blå bjælke i toppen -->
         <div class="top">
         </div>
 
+        <!--Slideshow i header-->
         <div class="container">
 
             <img class="mySlides" src="splash.jpg" style="width:100%">
             <img class="mySlides" src="splash2.jpg" style="width:100%">
             <img class="mySlides" src="splash3.jpg" style="width:100%">
 
-
+            <!--Logo i header-->
             <div class="center">
                 <img id="logo" src="logo.svg" alt="">
             </div>
         </div>
+
+        <!--Navigation af bydele-->
         <nav>
             <div class="nav-btns">
                 <button data-kategori="alle" id="alle_steder" class="valgt">Alle steder</button>
@@ -42,6 +46,7 @@
                 <button data-kategori="Amager" id="amager">Amager</button>
                 <button data-kategori="Indre By" id="indre_by">Indre By</button>
             </div>
+            <!-- Burgermenu-->
             <div class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -49,14 +54,19 @@
             </div>
         </nav>
     </header>
+
+    <!--    Til toppen pil -->
     <div class="arrow-btn">
         <a href="#">
             <p>↑</p>
         </a>
     </div>
+
+    <!--    Liste-->
     <section id="liste">
     </section>
 
+    <!--   Article-->
     <template>
         <article class="steder">
             <h2 class="navn"></h2>
@@ -67,6 +77,8 @@
             <button a href="singleview.html">Læs mere</button>
         </article>
     </template>
+
+    <!--    footer-->
     <footer id="footer">
         <a class="fa fa-facebook"></a>
         <a class="fa fa-instagram"></a>
