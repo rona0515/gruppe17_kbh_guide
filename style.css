@@ -224,8 +224,8 @@ p {
 
 .arrow-btn {
     position: fixed;
-    bottom: 30px;
-    left: 25px;
+    bottom: 20px;
+    left: 20px;
 }
 
 .arrow-btn a {
@@ -317,7 +317,7 @@ footer {
         display: block;
         position: fixed;
         right: 6px;
-        top: 2vh;
+        top: 1.5vh;
         background-color: #33489B;
         padding: 5px 1px;
         border-radius: 10%;
