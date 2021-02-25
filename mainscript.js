@@ -97,9 +97,7 @@ function visSteder() {
             klon.querySelector(".kortbeskrivelse").textContent = sted.kortbeskrivelse;
             klon.querySelector(".adresse").textContent = `${"Adresse: "}` + sted.adresse;
             klon.querySelector(".kategori").textContent = sted.kategori;
-
             klon.querySelector(".steder").addEventListener("click", () => visDetaljer(sted));
-
             dest.appendChild(klon); //Klonen tilføjes til DOM'en
         }
     })
