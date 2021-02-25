@@ -11,7 +11,7 @@
  let counter = 0;
 
 
- //første funktion der kaldes efter Dom er loaded
+ /*-----------SLIDESHOW----------*/
 
  var myIndex = 0;
 
@@ -30,7 +30,7 @@
      setTimeout(carousel, 5000); // Change image every 2 seconds
  }
 
- /*-------------------Burger-menu javaScript---------------*/
+ /*-------------------BURGER-MENU---------------*/
 
  window.addEventListener("load", sidenVises);
  const navButtons = document.querySelectorAll(".nav-btns li");
@@ -50,7 +50,7 @@
      burger.classList.toggle('toggle');
  }
 
- // filtrering funcitoner
+ /*-------------------FILTRERING FUNKTIONER---------------*/
 
  function start() {
      console.log("DOM er loadet");
@@ -80,9 +80,6 @@
  }
 
  function visSteder() {
-     //            console.log("vis");
-     //            console.log(json);
-
      const dest = document.querySelector("#liste");
      const skabelon = document.querySelector("template").content;
      dest.textContent = "";
